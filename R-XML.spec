@@ -9,9 +9,12 @@ Group:            Sciences/Mathematics
 License:          BSD
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_3.9-4.tar.gz
-Requires:         R-methods R-utils R-bitops
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-methods R-utils R-bitops
+Requires:         R-methods R-utils 
+Requires:         R-methods 
+Requires:         R-bitops 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-utils
+BuildRequires:    R-methods 
+BuildRequires:    R-bitops 
 BuildRequires:    libxml2-devel
 
 %description
@@ -45,3 +48,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/scripts
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.9_4-1
++ Revision: 775395
+- Import R-XML
+- Import R-XML
+
