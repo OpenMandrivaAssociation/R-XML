@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.95.0.1
+Version:          3.96.1.1
 Release:          1
 Summary:          Tools for parsing and generating XML within R and S-Plus
 Group:            Sciences/Mathematics
 License:          BSD
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/XML_3.95-0.1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/XML_3.96-1.1.tar.gz
 Requires:         R-methods R-utils 
 Requires:         R-methods 
 Requires:         R-bitops 
@@ -55,5 +55,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775395
 - Import R-XML
 - Import R-XML
+
 
 
