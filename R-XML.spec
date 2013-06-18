@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          3.96.1.1
-Release:          1
+Release:          2
 Summary:          Tools for parsing and generating XML within R and S-Plus
 Group:            Sciences/Mathematics
 License:          BSD
