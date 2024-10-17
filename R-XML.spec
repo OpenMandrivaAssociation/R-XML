@@ -7,7 +7,7 @@ Release:          2
 Summary:          Tools for parsing and generating XML within R and S-Plus
 Group:            Sciences/Mathematics
 License:          BSD
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/XML_3.98-1.1.tar.gz
 Requires:         R-methods R-utils 
 Requires:         R-methods 
